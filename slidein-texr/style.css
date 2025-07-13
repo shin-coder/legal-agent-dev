@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.spacer {
+  height: 100vh;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.text-section {
+  min-height: 100vh;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.slide-text {
+  font-size: 2rem;
+  color: #000;
+  clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  opacity: 1;
+}
+
+.slide-text-2 {
+  font-size: 1rem;
+  color: #000;
+  clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  opacity: 1;
+}
+
+.slide-text-3 {
+  font-size: 0.75rem;
+  color: #000;
+  width: 30vw;
+  clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  opacity: 1;
+}
