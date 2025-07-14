@@ -4,7 +4,7 @@ const stickyImage = document.getElementById('sticky-image');
 const changeImageSection = document.getElementById('section04');
 const prevImage = document.getElementById('prev-image');
 
-gsap.set('#prev-image', { scale: 1.5 });
+gsap.set('#prev-image', { scale: 1.05 });
 
 const changeImage = () => {
   prevImage.src = './img/ethereal-flower.jpeg';
